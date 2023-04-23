@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+b {
+  font-weight: 500;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding-inline: 10%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  height: 130px;
+  margin-bottom: 50px;
+}
+.logo > * {
+  height: 100%;
+}
+
+.message {
+  text-align: center;
+}
